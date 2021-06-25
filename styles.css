@@ -1,0 +1,106 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+:root {
+    --primary: #F2C94C;
+    --black: #333;
+    --width-break: 600px;
+}
+
+
+
+
+
+
+/* body */
+body {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button, #txt-input {
+    font-family: 'Kalam', cursive;
+}
+
+/* main */
+
+main {
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    max-width: var(--width-break);
+}
+
+/* navbar */
+#navbar {
+    background-color: #F2C94C;
+   text-align: center;
+}
+#navbar div {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
+/* input text area */
+
+#txt-input {
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    height: 20vh;
+   font-size: 1.2rem;
+  
+}
+
+
+
+/* button */
+button {
+padding: 1rem 1.75rem;
+background-color: #F2C94C;
+border: none;
+margin-top: 1rem;
+font-size: 1.2rem;
+}
+
+
+
+
+/* output div area */
+
+#output {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid var(--black);
+    overflow: scroll;
+    
+}
+
+
+
+/* footer */
+
+
+#footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    padding: 1rem;
+        background-color: #F2C94C;
+    text-align: center;
+    /* padding: 0 0.5rem; */
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+#footer div {
+    font-size: 1.5rem;
+    display: block;
+}
+#footer p{
+    margin: auto;
+    max-width: var(--width-break);
+}
