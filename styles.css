@@ -78,7 +78,7 @@ font-size: 1.2rem;
 /* output div area */
 
 #output {
-    height: 10vh;
+    height: 20vh;
     width: 100%;
     border: 1px solid var(--black);
     overflow: scroll;
