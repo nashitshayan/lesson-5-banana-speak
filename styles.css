@@ -111,3 +111,16 @@ font-size: 1.2rem;
     margin: auto;
     max-width: var(--width-break);
 }
+
+/* media query */
+
+@media(max-width: 345px) {
+    #footer{
+        position: static;
+    }
+}
+@media(max-height: 600px) {
+    #footer{
+        position: static;
+    }
+}
