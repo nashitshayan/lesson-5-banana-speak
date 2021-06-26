@@ -114,12 +114,12 @@ font-size: 1.2rem;
 
 /* media query */
 
-@media(max-width: 345px) {
+@media(max-width: 445px) {
     #footer{
         position: static;
     }
 }
-@media(max-height: 600px) {
+@media(max-height: 700px) {
     #footer{
         position: static;
     }
